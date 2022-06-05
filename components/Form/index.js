@@ -9,7 +9,7 @@ const Form = () => {
   } = useForm();
   return (
     <div className={styles.wrapper}>
-      <form>
+      <form className={styles.flex}>
         <div className="formContainer">
           <input
             className={styles.inputContainer}
@@ -17,6 +17,7 @@ const Form = () => {
           ></input>
           <input className={styles.inputContainer} placeholder="Top No"></input>
         </div>
+        <input className={styles.submit} type="submit" />
       </form>
     </div>
   );
