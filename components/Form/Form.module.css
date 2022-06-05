@@ -1,0 +1,10 @@
+.wrapper {
+  @apply flex flex-col items-center my-5;
+}
+
+.formContainer {
+  @apply flex justify-center content-center my-5;
+}
+
+.inputContainer {
+}
