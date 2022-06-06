@@ -21,3 +21,6 @@
 .submit {
   @apply bg-green-600 py-5 px-8 w-1/3  border-solid rounded-md text-white text-2xl;
 }
+.error {
+  @apply text-red-500 bg-red-100 text-3xl ml-10 p-3 border-2 rounded-md border-red-500 rounded-xl;
+}
